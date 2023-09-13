@@ -1,0 +1,375 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+.header h3 {
+  color: #333;
+  font-size: 26px;
+  font-weight: 500;
+}
+.header-text {
+  display: flex;
+  gap: 50px;
+}
+.header h4 {
+  color: #5fb848;
+  font-size: 20px;
+  font-weight: 500;
+}
+.header a {
+  color: #404d5e;
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.header button {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  width: 160px;
+  height: 54px;
+  border-radius: 27px;
+  background: #494949;
+  border: none;
+}
+/* !HEADER END */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-text h1 {
+  width: 596px;
+  color: var(--black, #181d19);
+  font-size: 76px;
+}
+.hero-text span {
+  color: #5fb848;
+  font-size: 76px;
+  font-weight: 770;
+}
+.hero-text p {
+  width: 504px;
+  color: var(--black, #414a43);
+  font-size: 24px;
+  font-weight: 750;
+  line-height: 34px;
+  margin: 40px 0;
+}
+.hero-text button {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  width: 200px;
+  height: 64px;
+  border-radius: 50px;
+  background: var(
+    --green-gradient,
+    linear-gradient(180deg, #64bb47 0%, #2c9553 100%)
+  );
+  border: none;
+}
+/* !HERO-END */
+
+.organic h1 {
+  color: #151414;
+  text-align: center;
+  font-size: 54px;
+  font-weight: 770;
+}
+.organic h2 {
+  margin: 30px 0;
+  color: #3f4340;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 750;
+}
+.organic-block {
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.organic-blog h3 {
+  margin: 50px 0;
+  color: var(--black, #181d19);
+  font-size: 28px;
+  font-weight: 770;
+  margin: 15px 0;
+}
+.organic-blog p {
+  color: #515d56;
+  width: 270px;
+  font-size: 18px;
+  font-weight: 750;
+  line-height: 28px;
+}
+.organic-text-blog {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.organic-text h3 {
+  color: #000;
+  font-size: 44px;
+  font-weight: 780;
+}
+.organic-text p {
+  margin: 30px 0;
+  color: #545454;
+  font-size: 20px;
+  font-weight: 760;
+}
+/* !ORGANIC END */
+
+.post {
+  margin: 150px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.post-text h1 {
+  color: #151414;
+  font-size: 54px;
+  font-weight: 770;
+}
+
+.post-text p {
+  margin: 50px 0;
+  width: 500px;
+  color: var(--black, #353a37);
+  font-size: 22px;
+  font-weight: 750;
+  line-height: 34px;
+}
+.post-text button {
+  width: 210px;
+  height: 64px;
+  border-radius: 50px;
+  background: var(
+    --green-gradient,
+    linear-gradient(180deg, #64bb47 0%, #2c9553 100%)
+  );
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  border: none;
+}
+.post-blog {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.post-blog h4 {
+  color: var(--black, #313632);
+  font-size: 20px;
+  font-weight: 750;
+}
+
+/* ! POST END */
+.service h1 {
+  color: #151414;
+  text-align: center;
+  font-size: 54px;
+  font-weight: 770;
+}
+.service h2 {
+  padding: 20px 0;
+  color: #3b433e;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 750;
+}
+.service-blog h3 {
+  margin: 25px 0;
+  color: var(--black, #181d19);
+  font-size: 30px;
+  font-weight: 770;
+}
+.service-blog p {
+  color: #3b433e;
+  font-size: 18px;
+  font-weight: 750;
+  line-height: 28px;
+}
+.service-block {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.service button {
+  width: 210px;
+  height: 64px;
+  border-radius: 50px;
+  background: var(
+    --green-gradient,
+    linear-gradient(180deg, #64bb47 0%, #2c9553 100%)
+  );
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  border: none;
+}
+
+.service-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* !SERVICE END */
+
+.clients-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients {
+  margin: 100px 0;
+}
+.clients h1 {
+  color: #151414;
+  text-align: center;
+  font-size: 54px;
+  font-weight: 770;
+}
+.clients-text {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.clients-text h4 {
+  color: var(--333333, #201e1e);
+  font-size: 20px;
+  font-weight: 770;
+}
+
+.clients-blog p {
+  color: var(--black, #353d36);
+  font-size: 18px;
+  font-weight: 750;
+  line-height: 30px;
+}
+.clients-block {
+  margin: 80px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* !CLIENTS END */
+
+.email h1 {
+  color: #151414;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 770;
+}
+.email p {
+  margin: 20px 0;
+  color: #3b433e;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 750;
+}
+.email a {
+  width: 330px;
+  height: 60px;
+  border-radius: 165px;
+  border: 1.5px solid #efe5e5;
+  background: #fff;
+  color: #8a8a8a;
+  font-size: 18px;
+  font-weight: 750;
+  text-decoration: none;
+}
+.email button {
+  margin: 0 50px;
+  width: 170px;
+  height: 60px;
+  border-radius: 50px;
+  background: var(
+    --green-gradient,
+    linear-gradient(180deg, #64bb47 0%, #2c9553 100%)
+  );
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+}
+.email-text {
+  margin: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-text a {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+/* !EMAIL END */
+
+.footer {
+  margin-top: 200px;
+}
+.footer-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-text h3 {
+  color: var(--Style, #2c3847);
+  font-size: 26px;
+  font-weight: 770;
+}
+.footer-text p {
+  margin: 20px 0;
+  width: 262px;
+  color: var(--657582, #657582);
+  font-size: 16px;
+  font-weight: 760;
+}
+
+.footer-end {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1270px;
+  height: 60px;
+  flex-shrink: 0;
+  background: var(
+    --green-gradient,
+    linear-gradient(180deg, #64bb47 0%, #2c9553 100%)
+  );
+}
+.footer-end h6 {
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 760;
+}
